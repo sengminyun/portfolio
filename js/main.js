@@ -19,3 +19,5 @@ setInterval(function(){
         .end()
         .appendTo('#slide');
 },3000);
+
+
