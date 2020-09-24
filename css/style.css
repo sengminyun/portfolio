@@ -14,7 +14,6 @@ a{
     width: 32px;
     height: 30px;
     position: fixed;
-    margin-top: 34px;
     right: 4vw;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -330,9 +329,6 @@ a{
   }
 }
 
-.banner_part .banner_text h1 span {
-  color: #4438b7;
-}
 .banner_slide_box{
   position: relative;
   z-index: -1;
@@ -392,6 +388,7 @@ a{
   position: fixed;
   left: 50%;
   top: 30%;
+  z-index: -1;
   animation: fixed1 alternate infinite 80s;
 }
 
@@ -399,6 +396,7 @@ a{
   position: fixed;
   left: 10%;
   top: 10%;
+  z-index: -1;
   animation: fixed2 alternate infinite 60s;
 }
 
@@ -406,6 +404,7 @@ a{
   position: fixed;
   right: 60%;
   top: 75%;
+  z-index: -1;
   animation: fixed3 alternate infinite 40s;
 }
 
@@ -413,18 +412,21 @@ a{
   position: fixed;
   right: 10%;
   top: 5%;
+  z-index: -1;
   animation: fixed4 alternate infinite 60s;
 }
 .fixed_wrapper_5 {
   position: fixed;
   right: 5%;
   top: 30%;
+  z-index: -1;
   animation: fixed5 alternate infinite 50s;
 }
 .fixed_wrapper_6 {
   position: fixed;
   right: 5%;
   top: 30%;
+  z-index: -1;
   animation: fixed6 alternate infinite 40s;
 }
 @keyframes fixed1 {
@@ -506,3 +508,74 @@ a{
     transform: rotate(-360deg);
   }
 }
+.name{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.name h1{
+  padding: 0 5%;
+}
+.name h3{
+  padding: 0 5%;
+  font-weight: 300;
+}
+.about_text_box{
+  margin: 0;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_text{
+  margin: 3% 0 !important;
+  padding: 0 5% !important;
+}
+.about_text h5{
+  font-weight: 600;
+}
+.about_text p{
+  font-size:18px;
+}
+.about_text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_main{
+  background:#fff;
+  padding: 0;
+  margin: 6% auto 0;
+  padding-bottom: 5%;
+}
+.about_main .row{
+  margin: 0;
+}
+.about_main div{
+  padding: 0;
+}
+.about_main div img{
+  width: 100px;
+  height: 100px;
+}
+.center_line{
+  width: 3px;
+  height: 320px;
+  background:#ccc;
+  margin: 0 auto;
+}
+.skill_box{
+  background:#fff;
+  margin: 0 auto !important;
+  padding-bottom: 5%;
+}
+.skill{
+  margin: 0 auto;
+}
+
+
+
+
+
+
