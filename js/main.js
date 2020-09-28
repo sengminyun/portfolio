@@ -20,4 +20,4 @@ setInterval(function(){
         .appendTo('#slide');
 },3000);
 
-
+AOS.init();

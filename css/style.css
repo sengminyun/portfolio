@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
 li{
     list-style: none;
 }
@@ -15,6 +20,7 @@ a{
     height: 30px;
     position: fixed;
     right: 4vw;
+    top: 5%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -369,10 +375,9 @@ a{
   cursor: pointer;
 }
 .sec-title h1{
-  position:fixed;
   margin: 0;
   font-size:100px;
-  top: 30%;
+  position:fixed;
   opacity: 0.2;
   writing-mode: vertical-lr;
 }
@@ -508,72 +513,56 @@ a{
     transform: rotate(-360deg);
   }
 }
+.about_bg{
+  width: 100%;
+  height: 400px;
+  background: url(../images/about.jpg) no-repeat;
+  background-size: cover;
+}
+.about_box{
+  width: 100% !important;
+  background: #fff;
+  padding: 0;
+  padding-bottom: 50px;
+}
+.about_box div h1{
+  letter-spacing:5px;
+  padding: 50px 0;
+}
 .name{
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
+  padding: 0 30px !important;
 }
 .name h1{
-  padding: 0 5%;
+  padding: 20px 0 !important;
+  letter-spacing: 0 !important;
 }
 .name h3{
-  padding: 0 5%;
   font-weight: 300;
 }
-.about_text_box{
-  margin: 0;
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.about_text{
-  margin: 3% 0 !important;
-  padding: 0 5% !important;
-}
-.about_text h5{
-  font-weight: 600;
-}
-.about_text p{
-  font-size:18px;
-}
-.about_text{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.about_main{
-  background:#fff;
+.center_box{
   padding: 0;
-  margin: 6% auto 0;
-  padding-bottom: 5%;
+  border-right: 2px solid #ccc;
+  box-sizing: border-box;
 }
-.about_main .row{
-  margin: 0;
+.profile{
+  padding: 10px 0;
 }
-.about_main div{
-  padding: 0;
+.profile div{
+  display: flex;
+  padding: 10px 0;
 }
-.about_main div img{
-  width: 100px;
-  height: 100px;
+.profile div p:nth-child(1){
+  width: 40%;
+  font-weight: bold;
 }
-.center_line{
-  width: 3px;
-  height: 320px;
-  background:#ccc;
+.skill_box div img{
+  width: 70px;
+  height: 70px;
   margin: 0 auto;
 }
-.skill_box{
-  background:#fff;
-  margin: 0 auto !important;
-  padding-bottom: 5%;
+.skill_box div h4{
+  padding: 20px 0;
 }
-.skill{
-  margin: 0 auto;
-}
-
 
 
 
